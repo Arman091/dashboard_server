@@ -1,6 +1,7 @@
 
 import UserModel from "../model/userSchema.js";
 export const userData = async (req, res) => {
+   
   try {
       const users = await UserModel.find({ });
 
